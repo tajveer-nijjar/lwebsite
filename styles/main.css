@@ -19,7 +19,7 @@ body
 
 .home_hero
 {
-    position: absolute;
+    position: relative;
     top:0px;
     left:0px;
     height:800px;
@@ -57,7 +57,7 @@ body
 
 .navbar .navbar-collapse
 {
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 
 .navbar .navbar-collapse ul li
@@ -102,13 +102,18 @@ body
     top: 0px;
     left: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-    margin-top:200px;
+    margin-top:300px;
     /* margin-left: 200px !important; */
+}
+
+.slogan .container span
+{
+    line-height: .6em;
 }
 
 .slogan .container span.small_thin_text, .slogan .container span.large_thick_text
 {
-    line-height: .6em;
+    /* line-height: .6em; */
     display: block;
 }
 
@@ -116,6 +121,8 @@ body
 {
     font-size: 1em;
     font-weight: 100;
+    line-height: 1em;
+    margin-left: 5px;
 }
 
 .slogan .container span.large_thick_text
@@ -131,4 +138,19 @@ body
     color:#F94A77;
     font-size: 2.5em;
     font-weight: 800;
+}
+
+
+
+/******************************************************/
+
+
+
+.worked_with
+{
+    height:200px;
+    width:100%;
+    position: 
+    background:red;
+
 }
