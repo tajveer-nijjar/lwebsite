@@ -217,13 +217,19 @@ body
 
 
 
-.featured_work .row
+.featured_work .poal_vr
 {
     height:600px;
     background: #f2f2f2;
+    position: relative;
+    top:0;
+    left: 0;
+    z-index: 0;
 }
 
-.featured_work .row .vr_photo
+
+
+.featured_work .poal_vr .vr_photo
 {
     height: 100%;
     background: url("../images/home/featured work/Vr headset.jpg");
@@ -231,15 +237,14 @@ body
     background-position: center;
 }
 
-.featured_work .row .vr_text
+.featured_work .poal_vr .vr_text
 {
-    height: 100%;
     color:#323232;
     display: inline-block;
     margin-top: 150px;
 }
 
-.featured_work .row .vr_text p
+.featured_work .row p
 {
     vertical-align: middle;
     font-size:25px;
@@ -278,4 +283,43 @@ span.small_thin_text
 {
     background: #323232;
     color: #f2f2f2;
+}
+
+
+
+
+/******************************************************/
+
+
+
+
+.featured_work .aramex
+{
+    position: relative;
+    top:0;
+    left:0px;
+    z-index: 100 !important;  
+    height:500px;
+    width: 100%;
+    background: url("../images/home/featured work/Aramex background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.featured_work .aramex .aramex_photo
+{
+    height:100%;
+    /* background: url("../images/home/featured work/Aramex floating phones.png"); */
+    background-repeat:no-repeat;
+    background-position-y:-100px;
+    position: relative;
+    top:0;
+    left: 0;
+    z-index: 100 !important;  
+    
+}
+
+.featured_work .aramex .aramex_photo img
+{
+    margin-top: -100px;
 }
