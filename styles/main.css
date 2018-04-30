@@ -255,12 +255,6 @@ button.learn_more
 
 
 /* VR Training */
-.featured_work .row .vr_text button:hover
-{
-    background: #323232;
-    color: #f2f2f2;
-}
-
 
 
 .featured_work .poal_vr
@@ -292,6 +286,12 @@ button.learn_more
 {
     vertical-align: middle;
     font-size:25px;
+}
+
+.featured_work .row .vr_text button:hover
+{
+    background: #323232;
+    color: #f2f2f2;
 }
 
 
@@ -359,4 +359,42 @@ button.learn_more
 {
     margin-top: -100px;
     margin-left: 50px;
+}
+
+
+
+
+
+
+/******************************************************/
+
+
+
+
+
+/* Trademe */
+.featured_work .trademe
+{
+    height: 600px;
+    background: #f2f2f2;    
+}
+
+.featured_work .trademe .trademe_photo
+{
+    height: 100%;
+    background: url("../images/home/featured work/Property tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.featured_work .trademe .trademe_text
+{
+    color: #323232;
+    margin-top: 150px;
+}
+
+.featured_work .trademe .trademe_text button.learn_more:hover
+{
+    background: #323232;
+    color: #f2f2f2;
 }
