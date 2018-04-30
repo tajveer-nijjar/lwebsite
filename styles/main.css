@@ -14,15 +14,37 @@ body
     
 }
 
+
+/******************************************************/
+
 .home_hero
 {
+    position: absolute;
+    top:0px;
+    left:0px;
     height:800px;
+    width: 100%;
     padding:0px;
-    background: url('../images/home/homeBackground.jpg')
+    background: url('../images/home/homeBackground.jpg');
+    z-index:0;
 }
+
+.home_hero .overlay
+{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    background: gray;
+    opacity: 0.3;
+}
+
+
+/******************************************************/
+
 
 .navbar
 {
+    z-index: 1;
     background: transparent;
     border:none;
     box-shadow: none;
@@ -30,7 +52,7 @@ body
 
 .navbar .navbar-brand
 {
-    margin-left: 100px !important;
+    /* margin-left: 200px !important; */
 }
 
 .navbar .navbar-collapse
@@ -69,3 +91,44 @@ body
 }
 
 
+
+/******************************************************/
+
+
+
+.slogan
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    margin-top:200px;
+    /* margin-left: 200px !important; */
+}
+
+.slogan .container span.small_thin_text, .slogan .container span.large_thick_text
+{
+    line-height: .6em;
+    display: block;
+}
+
+.slogan .container span.small_thin_text
+{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.slogan .container span.large_thick_text
+{
+    font-size: 2.5em;
+    font-weight: 800;
+    display: inline-block;
+    
+}
+
+.slogan .container span.pink_dot
+{
+    color:#F94A77;
+    font-size: 2.5em;
+    font-weight: 800;
+}
