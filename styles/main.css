@@ -217,6 +217,52 @@ body
 
 
 
+/* Common for featured work */
+span.featured_small_thin_text
+{
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1em;
+}
+
+span.featured_large_thick_text
+{
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+p.featured_short_description
+{
+    font-weight: 100;
+    width:400px;
+    font-size: 1.5em;
+}
+
+button.learn_more
+{
+    width:170px;
+    height:40px;
+    background: transparent;
+    border: 1px solid #323232;
+    border-radius: 0;
+}
+
+
+
+
+/******************************************************/
+
+
+
+/* VR Training */
+.featured_work .row .vr_text button:hover
+{
+    background: #323232;
+    color: #f2f2f2;
+}
+
+
+
 .featured_work .poal_vr
 {
     height:600px;
@@ -226,8 +272,6 @@ body
     left: 0;
     z-index: 0;
 }
-
-
 
 .featured_work .poal_vr .vr_photo
 {
@@ -250,40 +294,6 @@ body
     font-size:25px;
 }
 
-span.large_thick_text
-{
-    font-size: 2.5em;
-    font-weight: 800;
-}
-
-span.small_thin_text
-{
-    font-size: 1em;
-    font-weight: 100;
-    line-height: 1em;
-}
-
-.featured_work .row .vr_text p.worlds_first
-{
-    font-weight: 100;
-    width:400px;
-    font-size: 1.5em;
-}
-
-.featured_work .row .vr_text button
-{
-    width:170px;
-    height:40px;
-    background: transparent;
-    border: 1px solid #323232;
-    border-radius: 0;
-}
-
-.featured_work .row .vr_text button:hover
-{
-    background: #323232;
-    color: #f2f2f2;
-}
 
 
 
@@ -293,6 +303,7 @@ span.small_thin_text
 
 
 
+/* BYOD Courier app */
 .featured_work .aramex
 {
     position: relative;
@@ -306,6 +317,30 @@ span.small_thin_text
     background-repeat: no-repeat;
 }
 
+.featured_work .aramex .aramex_text
+{
+    margin-top: 100px !important;
+    margin-left: 100px;
+    width:500px;
+}
+
+
+.featured_work .aramex .aramex_text .featured_large_thick_text
+{
+    line-height: 1em;
+}
+
+.featured_work .aramex .aramex_text button.learn_more
+{
+    border:1px solid white;
+}
+
+.featured_work .aramex .aramex_text button.learn_more:hover
+{
+    background: white;
+    color:#323232;
+}
+
 .featured_work .aramex .aramex_photo
 {
     height:100%;
@@ -316,10 +351,12 @@ span.small_thin_text
     top:0;
     left: 0;
     z-index: 100 !important;  
-    
 }
+
+
 
 .featured_work .aramex .aramex_photo img
 {
     margin-top: -100px;
+    margin-left: 50px;
 }
