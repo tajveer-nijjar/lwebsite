@@ -320,8 +320,7 @@ button.learn_more
 .featured_work .aramex .aramex_text
 {
     margin-top: 100px !important;
-    margin-left: 100px;
-    width:500px;
+    /* margin-left: 100px; */
 }
 
 
