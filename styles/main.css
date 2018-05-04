@@ -626,3 +626,48 @@ button.learn_more
         height: 20px;
     }
 }
+
+
+
+
+
+
+/******************************************************/
+
+
+
+
+/* Our Recognitions */
+section.recognitions
+{
+    height:400px;
+}
+
+section.recognitions .row div.col-md-2
+{
+    height:100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* margin: 0 20px; */
+    /* padding:0 50px; */
+}
+
+section.recognitions .row  div h2
+{
+    color: #323232;
+}
+
+section.recognitions div.cio
+{
+    background: url("../images/home/recognitions/cio.jpg")
+}
+
+section.recognitions div.microsoft_partner
+{
+    background: url("../images/home/recognitions/msft partner.jpg")
+}
+
+section.recognitions div.microsoft_mvp
+{
+    background: url("../images/home/recognitions/msft.jpg")
+}
