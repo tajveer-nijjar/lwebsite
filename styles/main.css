@@ -671,3 +671,139 @@ section.recognitions div.microsoft_mvp
 {
     background: url("../images/home/recognitions/msft.jpg")
 }
+
+
+
+
+
+
+/******************************************************/
+
+
+
+
+
+/* Latest News */
+.latest_news
+{
+    height:auto;
+    background: #f4f4f4;
+}
+
+.latest_news .page-header
+{
+    border:none;
+}
+
+.latest_news h2 
+{
+    font-size:4em;
+    font-weight:800;
+    line-height: 40px;
+    color: #323232;
+}
+
+.latest_news h2 small
+{
+    font-size: .5em;
+    font-weight: 100;
+}
+
+.latest_news .row
+{
+    height: auto;
+}
+
+.latest_news .row .left_stories
+{
+    height:100%;
+    color:#323232;
+}
+
+
+.latest_news .row .left_stories article
+{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+
+.latest_news .row .left_stories .content
+{
+    font-size: 2em;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.latest_news .row .left_stories footer
+{
+    font-size: 1em;
+    color: #9B9B9B;
+    line-height: 10px;
+}
+
+.latest_news .row .cio > h3
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.latest_news .row .idealog > h3
+{
+
+}
+
+.latest_news .row .computerworld > h3
+{
+
+}
+
+.latest_news .row .stuff > h3
+{
+
+}
+
+
+
+
+
+
+.latest_news .row .right_stories
+{
+    height:100%;
+    color: #323232;
+}
+
+.latest_news .row .right_stories article
+{
+    border-bottom: 1px solid #d8d8d8;
+    padding: 10px 0 20px 0;
+}
+
+.latest_news .row .right_stories article .lwa_tiny_logo
+{
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.latest_news .row .right_stories article h3
+{
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.latest_news .row .right_stories article h3 > small
+{
+    font-size: .9em;
+    color: #9B9B9B;
+    
+}
+
+.latest_news .row .right_stories article p
+{
+    color: #9B9B9B;
+    line-height: 20px;
+}
