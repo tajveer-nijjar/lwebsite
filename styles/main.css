@@ -423,8 +423,7 @@ button.learn_more
 .featured_work .sff .sff_text
 {
     margin-top: 100px !important;
-    margin-left: 100px;
-    width:500px;
+    /* width:500px; */
 }
 
 .featured_work .sff .sff_text .featured_large_thick_text
