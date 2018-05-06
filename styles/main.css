@@ -97,6 +97,8 @@ body
 
 
 
+
+
 .slogan
 {
     position: relative;
@@ -107,18 +109,21 @@ body
     /* margin-left: 200px !important; */
 }
 
-.slogan .container span
+/* This font styling for this would be reused.
+Hence, did not use .slogan with the selectors. */
+span
 {
     line-height: .6em;
 }
 
-.slogan .container span.small_thin_text, .slogan .container span.large_thick_text
+
+span.small_thin_text, span.large_thick_text
 {
     /* line-height: .6em; */
     display: block;
 }
 
-.slogan .container span.small_thin_text
+span.small_thin_text
 {
     font-size: 1em;
     font-weight: 100;
@@ -126,7 +131,7 @@ body
     margin-left: 5px;
 }
 
-.slogan .container span.large_thick_text
+span.large_thick_text
 {
     font-size: 2.5em;
     font-weight: 800;
@@ -134,7 +139,7 @@ body
     
 }
 
-.slogan .container span.pink_dot
+span.pink_dot
 {
     color:#F94A77;
     font-size: 2.5em;
@@ -759,7 +764,7 @@ button.learn_more
     line-height: 20px;
 }
 
-.latest_news .row .left_stories footer
+.latest_news .row .left_stories > footer
 {
     font-size: 1em;
     color: #9B9B9B;
@@ -869,7 +874,7 @@ section.partners h2
 .partners .row div
 {
     height: 100px;
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 
 .partners .microsoft
@@ -898,4 +903,98 @@ section.partners h2
     background: url("../images/home/our partners/Panasonic.jpg");
     background-repeat: no-repeat;    
     margin-top: 30px;
+}
+
+
+
+
+
+
+
+/******************************************************/
+
+
+
+
+
+
+footer.footer
+{
+    height:500px;
+    background: url("../images/footer/Home Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer.footer .row h3
+{
+    margin-top:100px;
+    color: #f4f4f4;
+    
+}
+
+footer.footer .row .contact_info
+{
+    margin-top:100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    width:100%;
+    color: #f4f4f4;
+}
+
+footer.footer .row .contact_info h4
+{
+    font-weight: 800;
+    color: #f4f4f4;    
+}
+
+footer.footer .row .contact_info a
+{
+    color:#f4f4f4;
+}
+
+footer.footer .row .address
+{
+    line-height: 50px !important;
+    padding-left:0;
+}
+
+footer.footer .row .address img
+{
+    display: block;
+}
+
+footer.footer .row .phone
+{
+}
+
+
+footer.footer .row .email
+{
+
+}
+
+footer.footer .row .email a.btn_pink_border
+{
+    font-weight: 400 !important;
+    color: #f4f4f4;
+    letter-spacing: 1px;
+    background: transparent !important;
+    border: 2px solid #F94A77 !important;
+    color: #F94A77 !important;
+    
+    margin-top: 28px;
+    text-transform: uppercase !important;
+    padding:10px 43px;
+}
+
+footer.footer .row .email a.btn_pink_border:hover
+{
+    background: #F94A77 !important;
+    color: white !important;
+}
+
+footer.footer .row .follow_us img
+{
+    padding:10px 15px 10px 0;
 }
