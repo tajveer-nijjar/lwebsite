@@ -155,14 +155,11 @@ span.pink_dot
 .worked_with
 {
     height:300px;
-    
-    
 }
 
-.worked_with .container-fluid .row
+.worked_with .container .row
 {
     margin-top: 100px;
-    
 }
 
 .worked_with .row h2
@@ -187,6 +184,7 @@ span.pink_dot
     background-repeat: no-repeat;    
     /* background-size: contain; */
     margin-top: 25px;
+    margin-right: 40px;
 }
 
 .worked_with .row .aramex
@@ -195,6 +193,7 @@ span.pink_dot
     background-repeat: no-repeat;    
     /* background-size: contain; */
     margin-top: 30px;
+    margin-right: 40px;
 }
 
 .worked_with .row .trademe
@@ -203,6 +202,7 @@ span.pink_dot
     background-repeat: no-repeat;    
     background-size: contain;
     margin-top: 30px;
+    margin-right: 40px;
 }
 
 .worked_with .row .sff
@@ -255,16 +255,19 @@ button.learn_more
 
 
 
+
+
 /******************************************************/
 
 
 
+
+
 /* VR Training */
-
-
 .featured_work .poal_vr
 {
-    height:600px;
+    width:100%;
+    height:700px;
     background: #f2f2f2;
     position: relative;
     top:0;
@@ -272,19 +275,25 @@ button.learn_more
     z-index: 0;
 }
 
-.featured_work .poal_vr .vr_photo
+.featured_work .poal_vr .row
 {
     height: 100%;
+    margin-top: 120px;
+}
+
+.featured_work .poal_vr .vr_photo
+{
+    height: 400px;
     background: url("../images/home/featured work/Vr headset.jpg");
     background-repeat:no-repeat;
-    background-position: center;
+    background-position: 0px center;
 }
 
 .featured_work .poal_vr .vr_text
 {
     color:#323232;
     display: inline-block;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .featured_work .row p
@@ -379,22 +388,29 @@ button.learn_more
 /* Trademe */
 .featured_work .trademe
 {
-    height: 600px;
-    background: #f2f2f2;    
+    width:100%;
+    height:700px;
+    background: #f2f2f2;
+}
+
+.featured_work .trademe .row
+{
+    height: 100%;
+    margin-top: 120px;
 }
 
 .featured_work .trademe .trademe_photo
 {
-    height: 100%;
+    height: 400px;
     background: url("../images/home/featured work/Property tablet.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:0px center;
 }
 
 .featured_work .trademe .trademe_text
 {
     color: #323232;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .featured_work .trademe .trademe_text button.learn_more:hover
@@ -653,6 +669,9 @@ button.learn_more
     margin-top: 100px;
 }
 
+
+
+
 .recognitions .row  div h2
 {
     color:#323232;
@@ -668,6 +687,7 @@ button.learn_more
     height:100px;
     background-repeat: no-repeat;
     background-size: contain;
+    padding:10px;
     /* margin: 0 20px; */
     /* padding:0 50px; */
     /* border:1px solid red; */
@@ -678,25 +698,25 @@ button.learn_more
 .recognitions div.cio
 {
     background: url("../images/home/recognitions/cio.jpg");
-    margin-top: 25px;
+    margin-top: 30px;
     background-repeat: no-repeat;    
-    background-size: contain;
+    /* background-size: contain; */
 }
 
 .recognitions div.microsoft_partner
 {
     background: url("../images/home/recognitions/msft partner.jpg");
-    margin-top: 25px;
+    margin-top: -10px;
     background-repeat: no-repeat;    
-    background-size: contain;
+    /* background-size: contain; */
 }
 
 .recognitions div.microsoft_mvp
 {
     background: url("../images/home/recognitions/msft.jpg");
-    margin-top: 25px;
+    margin-top: 5px;
     background-repeat: no-repeat;   
-    background-size: contain;
+    /* background-size: contain; */
      
 }
 
@@ -856,7 +876,7 @@ button.learn_more
     height:300px;
 }
 
-.partners .container-fluid .row
+.partners .container .row
 {
     margin-top: 100px;
 }
@@ -869,10 +889,12 @@ section.partners h2
     vertical-align: top;
     font-size: 1.5em;
     padding:0 10px;
+    padding-left:0;
 }
 
 .partners .row div
 {
+    padding-left: 0;
     height: 100px;
     /* border:1px solid red; */
 }
@@ -882,6 +904,7 @@ section.partners h2
     background: url("../images/home/our partners/Microsoft.jpg");
     background-repeat: no-repeat;    
     margin-top: 25px;
+    margin-right:50px;
 }
 
 .partners .honeywell
@@ -889,6 +912,8 @@ section.partners h2
     background: url("../images/home/our partners/Honeywell.jpg");
     background-repeat: no-repeat;    
     margin-top: 35px;
+    margin-right:50px;
+    
 }
 
 .partners .spark
@@ -896,6 +921,7 @@ section.partners h2
     background: url("../images/home/our partners/Spark-NZ.jpg");
     background-repeat: no-repeat;    
     margin-top: 15px;
+    margin-right:50px;
 }
 
 .partners .panasonic
