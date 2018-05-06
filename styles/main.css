@@ -488,7 +488,12 @@ button.learn_more
 /******************************************************/
 
 
-
+.testimonials
+{
+    width:100%;
+    background: #f2f2f2;
+    
+}
 
 /* carousel */
 .row .carousel
