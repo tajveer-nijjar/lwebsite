@@ -638,38 +638,61 @@ button.learn_more
 
 
 /* Our Recognitions */
-section.recognitions
+.recognitions
 {
-    height:400px;
+    height:300px;
 }
 
-section.recognitions .row div.col-md-2
+.recognitions .container .row
+{
+    margin-top: 100px;
+}
+
+.recognitions .row  div h2
+{
+    color:#323232;
+    font-weight: 100;
+    display:inline-block;
+    vertical-align: top;
+    font-size: 1.5em;
+    padding:0 10px;
+}
+
+.recognitions .row div
 {
     height:100px;
     background-repeat: no-repeat;
     background-size: contain;
     /* margin: 0 20px; */
     /* padding:0 50px; */
+    /* border:1px solid red; */
 }
 
-section.recognitions .row  div h2
+
+
+.recognitions div.cio
 {
-    color: #323232;
+    background: url("../images/home/recognitions/cio.jpg");
+    margin-top: 25px;
+    background-repeat: no-repeat;    
+    background-size: contain;
 }
 
-section.recognitions div.cio
+.recognitions div.microsoft_partner
 {
-    background: url("../images/home/recognitions/cio.jpg")
+    background: url("../images/home/recognitions/msft partner.jpg");
+    margin-top: 25px;
+    background-repeat: no-repeat;    
+    background-size: contain;
 }
 
-section.recognitions div.microsoft_partner
+.recognitions div.microsoft_mvp
 {
-    background: url("../images/home/recognitions/msft partner.jpg")
-}
-
-section.recognitions div.microsoft_mvp
-{
-    background: url("../images/home/recognitions/msft.jpg")
+    background: url("../images/home/recognitions/msft.jpg");
+    margin-top: 25px;
+    background-repeat: no-repeat;   
+    background-size: contain;
+     
 }
 
 
@@ -769,7 +792,7 @@ section.recognitions div.microsoft_mvp
 
 
 
-
+/* Right pane news */
 .latest_news .row .right_stories
 {
     height:100%;
@@ -807,4 +830,72 @@ section.recognitions div.microsoft_mvp
 {
     color: #9B9B9B;
     line-height: 20px;
+}
+
+
+
+
+
+
+
+/******************************************************/
+
+
+
+
+
+
+.partners
+{
+    width: 100%;
+    height:300px;
+}
+
+.partners .container-fluid .row
+{
+    margin-top: 100px;
+}
+
+section.partners h2
+{
+    color: #323232;
+    font-weight: 100;
+    display:inline-block;
+    vertical-align: top;
+    font-size: 1.5em;
+    padding:0 10px;
+}
+
+.partners .row div
+{
+    height: 100px;
+    border:1px solid red;
+}
+
+.partners .microsoft
+{
+    background: url("../images/home/our partners/Microsoft.jpg");
+    background-repeat: no-repeat;    
+    margin-top: 25px;
+}
+
+.partners .honeywell
+{
+    background: url("../images/home/our partners/Honeywell.jpg");
+    background-repeat: no-repeat;    
+    margin-top: 35px;
+}
+
+.partners .spark
+{
+    background: url("../images/home/our partners/Spark-NZ.jpg");
+    background-repeat: no-repeat;    
+    margin-top: 15px;
+}
+
+.partners .panasonic
+{
+    background: url("../images/home/our partners/Panasonic.jpg");
+    background-repeat: no-repeat;    
+    margin-top: 30px;
 }
