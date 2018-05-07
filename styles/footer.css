@@ -1,0 +1,81 @@
+footer.footer
+{
+    height:500px;
+    background: url("../images/footer/Home Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer.footer .row h3
+{
+    margin-top:100px;
+    color: #f4f4f4;
+    
+}
+
+footer.footer .row .contact_info
+{
+    margin-top:100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    width:100%;
+    color: #f4f4f4;
+}
+
+footer.footer .row .contact_info h4
+{
+    font-weight: 800;
+    color: #f4f4f4;    
+}
+
+footer.footer .row .contact_info a
+{
+    color:#f4f4f4;
+}
+
+footer.footer .row .address
+{
+    line-height: 50px !important;
+    padding-left:0;
+}
+
+footer.footer .row .address img
+{
+    display: block;
+}
+
+footer.footer .row .phone
+{
+}
+
+
+footer.footer .row .email
+{
+
+}
+
+footer.footer .row .email a.btn_pink_border
+{
+    font-weight: 400 !important;
+    color: #f4f4f4;
+    letter-spacing: 1px;
+    background: transparent !important;
+    border: 2px solid #F94A77 !important;
+    color: #F94A77 !important;
+    
+    margin-top: 28px;
+    text-transform: uppercase !important;
+    padding:10px 43px;
+}
+
+footer.footer .row .email a.btn_pink_border:hover
+{
+    background: #F94A77 !important;
+    color: white !important;
+}
+
+footer.footer .row .follow_us img
+{
+    padding:10px 15px 10px 0;
+}
+
