@@ -95,11 +95,13 @@ span.pink_dot {
     list-style-type: none;
 }
 
-.clients .row ul li {
+.clients .row ul li 
+{
     display: inline-block;
 }
 
-.clients .row ul li button {
+.clients .row ul li button 
+{
     background: none;
     border: none;
     color: #323232;
@@ -112,6 +114,18 @@ span.pink_dot {
 .clients .row ul li button.active {
     color: #F94A77;
 }
+
+.clients .row ul li button.active:hover
+{
+    border-bottom:1px solid #F94A77;
+}
+
+.clients .row ul li button:hover
+{
+    border-bottom: 1px solid #727272;
+}
+
+
 
 .clients_carousel {
     margin-bottom: 100px;
@@ -215,12 +229,23 @@ span.pink_dot {
     border:none;
     color:#727272;
     font-size: 1.2em;
+    padding: 10px 30px;
     
 }
 
 .projects .projects_nav ul li button.active
 {
     color:#F94A77;
+}
+
+.projects .projects_nav ul li button.active:hover
+{
+    border-bottom: 1px solid #F94A77;
+}
+
+.projects .projects_nav ul li button:hover
+{
+    border-bottom: 1px solid #727272;
 }
 
 .projects .projects_nav ul li button#all_projects
