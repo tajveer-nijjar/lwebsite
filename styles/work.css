@@ -1,0 +1,108 @@
+
+/* pink = #F94A77 */
+/* text color black = #323232 */
+
+*
+{
+    text-shadow: none !important;
+}
+
+body
+{
+    font-family: 'Segoe UI';
+    color: white;
+    
+} 
+
+
+
+
+/******************************************************/
+
+
+
+
+.home_hero
+{
+    position: relative;
+    top:0px;
+    left:0px;
+    height:800px;
+    width: 100%;
+    padding:0px;
+    background: url('../images/home/homeBackground.jpg');
+    z-index:0;
+}
+
+.home_hero .overlay
+{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    background: gray;
+    opacity: 0.3;
+}
+
+
+/******************************************************/
+
+
+
+/******************************************************/
+
+
+
+
+
+.slogan
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    margin-top:300px;
+    /* margin-left: 200px !important; */
+}
+
+/* This font styling for this would be reused.
+Hence, did not use .slogan with the selectors. */
+span
+{
+    line-height: .6em;
+}
+
+
+span.small_thin_text, span.large_thick_text
+{
+    /* line-height: .6em; */
+    display: block;
+}
+
+span.small_thin_text
+{
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1em;
+    margin-left: 5px;
+}
+
+span.large_thick_text
+{
+    font-size: 2.5em;
+    font-weight: 800;
+    display: inline-block;
+    
+}
+
+span.pink_dot
+{
+    color:#F94A77;
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+
+
+/******************************************************/
+
+

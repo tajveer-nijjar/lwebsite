@@ -28,6 +28,18 @@
     color: #f4f4f4;
 }
 
+.navbar .navbar-collapse ul li a.active
+{
+    border-bottom: 3px solid #F94A77 !important;
+}
+
+.navbar .navbar-collapse ul li a:hover
+{
+    border-bottom: 1px solid #F94A77 !important;
+    
+}
+
+
 .navbar .navbar-collapse a.btn_pink_border
 {
     font-weight: 400 !important;

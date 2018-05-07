@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css" />
 
     <link href="styles/navbar.css" type="text/css" rel="stylesheet" />
-    <link href="styles/home.css" type="text/css" rel="stylesheet" />
+    <link href="styles/work.css" type="text/css" rel="stylesheet" />
 
     <!-- Font awesome -->
     <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> -->
@@ -25,8 +25,78 @@
 </head>
 
 <body>
+    <div class="home_hero">
+        <div class="overlay"></div>
 
-    
+
+        <nav class="navbar navbar-inverse" id="my-navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <!--this is for menu button that will appear when the screen size is smaller-->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a href="index.html" class="navbar-brand">
+                        <img alt="LWA Solutions logo" src="images/home/squareLogo.png">
+                    </a>
+                </div>
+
+                <!--for the menu options that will toggle collapse in case the screen size is small-->
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <a href="#" class="btn navbar-btn navbar-right btn_pink_border">Innovate with us</a>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="work.html" class="active">Our work</a>
+                        </li>
+                        <li>
+                            <a href="#gallery">Services</a>
+                        </li>
+                        <li>
+                            <a href="#features">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+        <!-- Main slogan -->
+        <div class="slogan">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>
+                            <span class="small_thin_text">our</span>
+                            <span class="large_thick_text">WORK </span>
+                            <span class="pink_dot">.</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clients">
+        <div class="container">
+            <div class="row">
+                <ul>
+                    <li> <button id="">LATEST CLIENTS</button> </li>
+                    <li> <button id="">International</button> </li>
+                    <li> <button id="">National (New Zealand)</button> </li>
+                    <li> <button id="">Local (Christchurch)</button> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
 </body>
 
 </html>
