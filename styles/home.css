@@ -36,11 +36,11 @@ body
 
 .home_hero .overlay
 {
-    position: absolute;
+    /* position: absolute;
     height:100%;
     width: 100%;
     background: gray;
-    opacity: 0.3;
+    opacity: 0.3; */
 }
 
 
@@ -182,13 +182,18 @@ span.featured_small_thin_text
 {
     font-size: 1em;
     font-weight: 100;
-    line-height: 1em;
+    /* line-height: 1em; */
+
+    line-height: .6em;
 }
 
 span.featured_large_thick_text
 {
     font-size: 2.5em;
     font-weight: 800;
+    margin-bottom:100px;
+    line-height: .6em;
+    
 }
 
 p.featured_short_description
@@ -207,13 +212,23 @@ button.learn_more
     border-radius: 0;
 }
 
+.featured_work .featured_photo
+{
 
+}
 
+.featured_work .featured_text
+{
+    display: inline-block;
+    margin-top: 50px !important;
+}
 
-
-
-/******************************************************/
-
+.featured_work .featured_text .featured_short_description
+{
+    display: inline-block;
+    margin-top:20px;
+    margin-bottom:40px;
+}
 
 
 
@@ -248,7 +263,6 @@ button.learn_more
 {
     color:#323232;
     display: inline-block;
-    margin-top: 100px;
 }
 
 .featured_work .row p
@@ -272,7 +286,7 @@ button.learn_more
 
 
 
-/* BYOD Courier app */
+/* Aramex BYOD Courier app */
 .featured_work .aramex
 {
     position: relative;
@@ -290,12 +304,26 @@ button.learn_more
 {
     margin-top: 100px !important;
     /* margin-left: 100px; */
+    line-height: .6em;
+    
 }
 
+.featured_work .aramex .aramex_text .featured_short_description
+{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
 
 .featured_work .aramex .aramex_text .featured_large_thick_text
 {
-    line-height: 1em;
+    line-height: .82em;
+    
+}
+
+.featured_work .aramex .aramex_text .featured_small_thin_text
+{
+    margin-left: 2px;
+   
 }
 
 .featured_work .aramex .aramex_text button.learn_more
@@ -325,7 +353,7 @@ button.learn_more
 
 .featured_work .aramex .aramex_photo img
 {
-    margin-top: -100px;
+    margin-top: -150px;
     margin-left: 50px;
 }
 
@@ -403,7 +431,7 @@ button.learn_more
 
 .featured_work .sff .sff_text .featured_large_thick_text
 {
-    line-height: 1em;
+    /* line-height: 1em; */
 }
 
 .featured_work .sff .sff_text button.learn_more
@@ -431,7 +459,7 @@ button.learn_more
 
 .featured_work .sff .sff_photo img
 {
-    margin-top: -100px;
+    margin-top: -150px;
     margin-left: 250px;
 }
 
@@ -464,6 +492,11 @@ button.learn_more
   height:200px;
 }
 
+#quote-carousel li
+{
+    border:none;
+}
+
 /* Control buttons  */
 #quote-carousel .carousel-control
 {
@@ -485,6 +518,11 @@ button.learn_more
 {
     font-style: italic;
     font-family: 'Segoe UI';
+}
+
+.carousel-inner .nice_words:before
+{
+    content: none;
 }
 
 /* Testimonial person name */
@@ -696,6 +734,7 @@ button.learn_more
 {
     height:auto;
     background: #f4f4f4;
+    padding: 100px;
 }
 
 .latest_news .page-header
@@ -703,6 +742,7 @@ button.learn_more
     border:none;
 }
 
+/* Latest news heading */
 .latest_news h2 
 {
     font-size:4em;
@@ -731,10 +771,12 @@ button.learn_more
 
 .latest_news .row .left_stories article
 {
-    padding-bottom: 30px;
+    padding-bottom: 55px;
     padding-top: 30px;
     border-bottom: 1px solid #d8d8d8;
 }
+
+
 
 
 .latest_news .row .left_stories .content
@@ -984,3 +1026,4 @@ footer.footer .row .follow_us img
 {
     padding:10px 15px 10px 0;
 }
+

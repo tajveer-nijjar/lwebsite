@@ -36,11 +36,11 @@ body
 
 .home_hero .overlay
 {
-    position: absolute;
+    /* position: absolute;
     height:100%;
     width: 100%;
     background: gray;
-    opacity: 0.3;
+    opacity: 0.3; */
 }
 
 
