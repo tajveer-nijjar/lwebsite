@@ -103,6 +103,45 @@ span.pink_dot
 
 
 
+
+
 /******************************************************/
 
 
+
+
+
+.clients
+{
+    height:400px;
+}
+
+.clients .row
+{
+    margin-top:100px;
+}
+
+.clients .row ul
+{
+    list-style-type: none;
+}
+
+.clients .row ul li
+{
+    display: inline-block;
+}
+
+.clients .row ul li button
+{
+    background:none;
+    border:none;
+    color: #323232;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    padding: 10px 30px;
+}
+
+.clients .row ul li button.active
+{
+    color: #F94A77;
+}
